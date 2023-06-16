@@ -1,14 +1,13 @@
 ---
-name: Sinai - Desert Eagle (v1)
+name: Operation Desert Sabre (v1)
 theater: Sinai
 authors: Chimiste
-recommended_player_faction: WRL - Task Force Blue
-recommended_enemy_faction: WRL - Task Force Red
+recommended_player_faction: Israel 2011'ish for ODS
+recommended_enemy_faction: Egypt 2010's
 recommended_start_date: 2011-01-30
-description: "<p>Edited by HolyOrangeJuice. Original Golan Heights by Khopa. Modified for We Run Liberation group.
-  <a style=\"color: white\" href=\"https://werunliberation.com\">werunliberation.com</a></p>"
-miz: DesertEagle.miz
-performance: 2
+description: "<p>End to end map of Sinai.</p>"
+miz: Operation-Desert-Sabre.miz
+performance: 3
 version: "10.6"
 recommended_player_money: 2000
 recommended_enemy_money: 2000
@@ -37,10 +36,6 @@ squadrons:
     - primary: Refueling
       aircraft:
         - S-3B Tanker
-    - primary: Strike
-      secondary: any
-      aircraft:
-        - S-3B Viking
   
   # AIR SPAWN BLUE
   BLUEAIR:
@@ -65,10 +60,6 @@ squadrons:
     - primary: Strike
       secondary: any
       aircraft:
-        - B-52H Stratofortress
-    - primary: Strike
-      secondary: any
-      aircraft:
         - F-117A Nighthawk
     - primary: Strike
       secondary: any
@@ -78,18 +69,16 @@ squadrons:
       secondary: air-to-air
       aircraft:
         - F-15C Eagle
-  # Ramat-David
-  30:
+  # Ben-Gurion
+  24:
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
-        - 58th FS
-        #F15c
+        - F-15C Eagle
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
-        - VF-143
-        #F14B
+        - F-14B Tomcat
     - primary: BARCAP
       secondary: any
       aircraft:
@@ -97,25 +86,19 @@ squadrons:
     - primary: BARCAP
       secondary: any
       aircraft:
-        - JF-17 Thunder
+        - F-16CM Fighting Falcon (Block 50)
     - primary: Strike
       secondary: any
       aircraft:
-        - 23rd FS
-        #Viper USAF
+        - F-15E Strike Eagle
     - primary: Strike
       secondary: any
       aircraft:
-        - VMA-214
-        #AV8B
-    - primary: Strike
-      secondary: any
-      aircraft:
-        - AJS-37 Viggen
+        - F-16CM Fighting Falcon (Block 50)
     - primary: SEAD
       secondary: air-to-ground
       aircraft:
-        - VMFA-251
+        - F-16CM Fighting Falcon (Block 50)
         #Hornet - Marines
     - primary: CAS
       secondary: air-to-ground
@@ -124,65 +107,142 @@ squadrons:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - A-10A Thunderbolt II
-  # Golan South
-  Golan South:
+        - AH-64D Apache Longbow
+  # Tel Nof
+  23:
     - primary: BAI
       secondary: air-to-ground
       aircraft:
-        - AH-1W SuperCobra
+        - AH-64D Apache Longbow
     - primary: BAI
       secondary: air-to-ground
       aircraft:
         - AH-64D Apache Longbow (AI)
-  # Golan North
-  Golan North:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-15E Strike Eagle
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F-14B Tomcat
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F-15C Eagle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - A-10C Thunderbolt II (Suite 7)
+  
+  # Nevatim
+  8:
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F-4E Phantom II
     - primary: BAI
       secondary: air-to-ground
       aircraft:
-        - A Company, 1-211th ARB
-        #AH-64D Apache Longbow
-    - primary: CAS
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
         - Mi-24P Hind-F
-    - primary: CAS
-      secondary: air-to-ground
-      aircraft:
-        - Ka-50 Hokum III
-    - primary: CAS
-      secondary: air-to-ground
-      aircraft:
-        - SA 342M Gazelle
-    - primary: Transport
+    - primary: BARCAP
       secondary: any
       aircraft:
-        - HMLA-169 (UH-1H)
-        #UH-1H Iroquois
-    - primary: Transport
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Su-25 Frogfoot
+    - primary: BARCAP
       secondary: any
       aircraft:
-        - Mi-8MTV2 Hip
-  # Marj Ruhayyil
-  23:
+        - F-16CM Fighting Falcon (Block 50)
+  # Hatzerim
+  20:
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F-4E Phantom II
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
         - MiG-21bis Fishbed-N
-  # Al-Dumayr
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25 Frogfoot
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+  # Ramon Airbase
   9:
     - primary: BARCAP
       secondary: any
       aircraft:
-        - Su-27 Flanker-B
-  # Khalkhalah
-  18:
+        - Mirage 2000-5
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+       - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
     - primary: BARCAP
       secondary: any
       aircraft:
-        - MiG-23MLD Flogger-K
-  # Damascus
-  7:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-21bis Fishbed-N
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+  # Melez
+  5:
     - primary: BARCAP
       secondary: any
       aircraft:
@@ -190,17 +250,196 @@ squadrons:
     - primary: Strike
       secondary: air-to-ground
       aircraft:
-        - Su-24M Fencer-D
+        - MiG-23MLD Flogger-K
     - primary: SEAD
       secondary: air-to-ground
       aircraft:
-        - Su-25T Frogfoot
-ground_forces:
-  Khalkhalah SAM A: SA-11
-  Khalkhalah SAM B: SA-2/S-75 
-  Damascus SAM A: SA-11
-  Dumayr SAM A: SA-10/S-300PS 
-  Dumayr SAM B: SA-2/S-75 
-  Dumayr SAM C: SA-2/S-75 
-  GolanS SAM A: SA-11
-  Ramat SAM A: SA-11
+        - F-16CM Fighting Falcon (Block 50)
+  # As Salihiyah
+  3:
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000-5
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+       - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-21bis Fishbed-N
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: SEAD
+      secondary: air-to-ground
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    #Bilbeis Air Base
+    16:
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000-5
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+       - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-21bis Fishbed-N
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: SEAD
+      secondary: air-to-ground
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    #Inshas Airbase
+    19:
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000-5
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+       - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-21bis Fishbed-N
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: SEAD
+      secondary: air-to-ground
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    #Cairo
+    17:
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000-5
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+       - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - MiG-21bis Fishbed-N
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - MiG-23MLD Flogger-K
+    - primary: SEAD
+      secondary: air-to-ground
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: BARCAP
+      secondary: air-to-ground
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)

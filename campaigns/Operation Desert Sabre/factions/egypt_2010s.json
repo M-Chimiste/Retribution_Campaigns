@@ -10,13 +10,15 @@
     "AH-64D Apache Longbow",
     "AH-64D Apache Longbow (AI)",
     "MiG-29S Fulcrum-C",
+    "MiG-23MLD Flogger-K",
     "Mirage 2000-5",
     "SA 342M Gazelle",
+    "F-4E Phantom II",
     "Su-25 Frogfoot",
     "F-16CM Fighting Falcon (Block 50)"
   ],
   "awacs": [
-    "A-50"
+    "E-2C Hawkeye"
   ],
   "tankers": [
     "IL-78M"
@@ -38,7 +40,7 @@
   "artillery_units": [
     "2S1 Gvozdika",
     "M109A6 Paladin",
-    "M270 Multiple Launch Rocket System"
+    "M270 Multiple Launch Rocket System",
     "2S9 Nona-S",
     "BM-21 Grad",
     "BM-27 Uragan"
@@ -67,16 +69,15 @@
     "KS-19/SON-9",
     "Hawk",
     "Patriot",
+    "Silkworm"
   ],
   "naval_units": [
     "FFG Oliver Hazard Perry",
     "Corvette 1241.1 Molniya"
   ],
   "air_defense_units": [
-    "SAM P19 \"Flat Face\" SR (SA-2/3)",
     "EWR 1L13",
     "EWR 55G6",
-    "SAM Hawk SR (AN/MPQ-50)",
     "SAM SA-5 S-200 ST-68U \"Tin Shield\" SR",
     "SAM SA-8 Osa \"Gecko\" TEL",
     "SA-9 Strela",
