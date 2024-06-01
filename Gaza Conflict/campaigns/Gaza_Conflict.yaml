@@ -168,7 +168,7 @@ squadrons:
       aircraft:
         - Mi-24P Hind-F
   
-  FOB Erat:
+  FOB Efrat:
     - primary: CAS
       secondary: air-to-ground
       aircraft:
