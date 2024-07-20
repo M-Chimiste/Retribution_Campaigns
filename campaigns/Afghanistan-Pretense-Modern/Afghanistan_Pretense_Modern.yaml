@@ -5,8 +5,8 @@ authors: Chimiste
 recommended_player_faction: NATO Desert Storm
 recommended_enemy_faction: Russia 2010
 recommended_start_date: 2010-01-30
-description: "<p>We're going to Afghanistan.</p>"
-miz: Gaza_Conflict.miz
+description: "<p>A fictional scenario where NATO and Russian Forces circa 2010 fight in Southern Afghanistan.</p>"
+miz: Afghanistan_Pretense_Modern.miz
 performance: 3
 version: "10.6"
 recommended_player_money: 2000
