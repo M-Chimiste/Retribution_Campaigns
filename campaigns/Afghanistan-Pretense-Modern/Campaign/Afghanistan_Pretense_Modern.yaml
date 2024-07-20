@@ -440,7 +440,7 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - Su-34 Fullback
-    -primary: CAS
+    - primary: CAS
       secondary: air-to-ground
       aircraft:
         - Su-25T Frogfoot
