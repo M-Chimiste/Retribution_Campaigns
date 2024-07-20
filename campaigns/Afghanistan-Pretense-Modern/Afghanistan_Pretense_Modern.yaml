@@ -60,7 +60,15 @@ squadrons:
     - primary: BARCAP
       secondary: any
       aircraft:
-        - F/A-18C Hornet (Lot 20)3
+        - F/A-18C Hornet (Lot 20)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - Mirage 2000C
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - AV-8B Harrier II Night Attack
         
   # Kandahar Heliport - Blue
   15:
@@ -99,98 +107,769 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - A-10C Thunderbolt II (Suite 7)
-  
-  # Hatzerim - Red
-  7:
     - primary: BARCAP
       secondary: any
       aircraft:
-        - F-4E Phantom II
+        - F-14B Tomcat
     - primary: BAI
+      secondary: any
+      aircraft:
+        - F-4E-45MC Phantom II
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - F-15E Strike Eagle (Suite 4+)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F/A-18C Hornet (Lot 20)
+  
+  # Dwyer - Blue
+  11:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - F-15E Strike Eagle (Suite 4+)
+    - primary: BARCAP
       secondary: air-to-air
       aircraft:
-        - MiG-21bis Fishbed-N
+        - F-15C Eagle
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - Su-25 Frogfoot
+        - A-10C Thunderbolt II (Suite 7)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F-14B Tomcat
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - F-4E-45MC Phantom II
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - F-15E Strike Eagle (Suite 4+)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F/A-18C Hornet (Lot 20)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
   
-  # Nevatim - Red
-  8:
-    - primary: Refueling
+  # Nimroz - Red
+  12:
+    - primary: SEAD
+      secondary: any
       aircraft:
-        - IL-78M
-    - primary: AEW&C
+        - F-16CM Fighting Falcon (Block 50)
+    - primary: Strike
+      secondary: any
       aircraft:
-        - E-2C Hawkeye
+        - F-15E Strike Eagle (Suite 4+)
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - F-15C Eagle
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - A-10C Thunderbolt II (Suite 7)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F-14B Tomcat
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - F-4E-45MC Phantom II
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - F-15E Strike Eagle (Suite 4+)
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - F/A-18C Hornet (Lot 20)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+  # FOB Kandahar - Blue
+  FOB Kandahar:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+  
+  # FOB Sardaran - Blue
+  FOB Sardaran:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+  
+  # FOB Garmsir - Blue
+  FOB Garmsir:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+      
+  # FOB Girishk - Blue
+  FOB Girishk:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+  
+  # FOB Khash - Blue
+  FOB Khash:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+  
+  # FOB Zarani - Blue
+  FOB Zarani:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - AH-64D Apache Longbow (AI)
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D Kiowa Warrior
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - OH-58D(R) Kiowa Warrior
+
+  # Farah - Red
+  2:
     - primary: BARCAP
       secondary: any
       aircraft:
         - MiG-29S Fulcrum-C
     - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-34 Fullback
+    -primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25T Frogfoot
+  
+  # Tarinkot - Red
+  9:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Su-34 Fullback
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - Su-30 Flanker-C
+    - primary: BARCAP
       secondary: air-to-air
       aircraft:
-        - MiG-23MLD Flogger-K
+        - Su-27 Flanker-B
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25 Frogfoot
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - Su-33 Flanker-D
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-34 Fullback
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29S Fulcrum-C
+  
+  # Shindand - Red
+  3:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Su-34 Fullback
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - Su-30 Flanker-C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27 Flanker-B
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25 Frogfoot
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - Su-33 Flanker-D
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-34 Fullback
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29S Fulcrum-C
+  
+  # Shindand Heliport - Red
+  14:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+
+  # Herat - Red
+  1:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Su-34 Fullback
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - Su-30 Flanker-C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27 Flanker-B
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25 Frogfoot
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - Su-33 Flanker-D
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-34 Fullback
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # Qala I Naw - Red
+  6:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Su-34 Fullback
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - Su-30 Flanker-C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27 Flanker-B
     - primary: CAS
       secondary: air-to-ground
       aircraft:
         - Su-25 Frogfoot
   
-  # El Gora - Red
-  30:
+  # Chaghcharan - Red
+  5:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Su-34 Fullback
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - Su-30 Flanker-C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27 Flanker-B
+    - primary: CAS
+      secondary: air-to-ground
+      aircraft:
+        - Su-25 Frogfoot
     - primary: BARCAP
       secondary: any
       aircraft:
         - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - Su-33 Flanker-D
     - primary: Strike
       secondary: air-to-ground
       aircraft:
-        - MiG-23MLD Flogger-K
+        - Su-34 Fullback
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29S Fulcrum-C
   
-  FOB Khan Yunis:
+  # Maymana Zahiraddin Faryabi - Red
+  4:
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - Su-34 Fullback
+    - primary: Strike
+      secondary: any
+      aircraft:
+        - Su-30 Flanker-C
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - Su-27 Flanker-B
     - primary: CAS
       secondary: air-to-ground
       aircraft:
-        - Mi-24P Hind-F
+        - Su-25 Frogfoot
+    - primary: BARCAP
+      secondary: any
+      aircraft:
+        - MiG-29S Fulcrum-C
+    - primary: BAI
+      secondary: any
+      aircraft:
+        - Su-33 Flanker-D
+    - primary: Strike
+      secondary: air-to-ground
+      aircraft:
+        - Su-34 Fullback
+    - primary: BARCAP
+      secondary: air-to-air
+      aircraft:
+        - MiG-29S Fulcrum-C
   
-  FOB Gaza:
+  # FOB Karizak - Red
+  FOB Karizak:
     - primary: BAI
       secondary: air-to-ground
       aircraft:
         - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
   
-  FOB Jericho:
-    - primary: CAS
+  # FOB Downtrodden - Red
+  FOB Downtrodden:
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
-        - Mi-24P Hind-F
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
   
-  FOB Qalandiya:
-    - primary: CAS
+  # FOB Sangin - Red
+  FOB Sangin:
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
-        - Mi-24P Hind-F
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
   
-  FOB Efrat:
-    - primary: CAS
+  # FOB Delaram - Red
+  FOB Delaram:
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
         - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+  
+  # FOB Raken - Red
+  FOB Raken:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+    
+  # FOB Lundyana - Red
+  FOB Lundyana:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
 
-  FOB Yatta:
-    - primary: CAS
+  
+  # FOB Sultan Bakwa - Red
+  FOB Sultan Bakwa:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Sakhtak - Red
+  FOB Sakhtak:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Chishti Sharif - Red
+  FOB Chishti Sharif:
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
         - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
 
-  FOB Amman:
-    - primary: CAS
+  # FOB Marvah - Red
+  FOB Marvah:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Qal a-i-Bala - Red
+  FOB Qal a-i-Bala:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Koshki - Red
+  FOB Koshki:
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
         - Mi-24P Hind-F
-
-  FOB Dhiban:
-    - primary: CAS
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+  
+  # FOB Akaza
+  FOB Akaza:
+    - primary: BAI
       secondary: air-to-ground
       aircraft:
         - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Qeysar - Red
+  FOB Qeysar:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Khawaja-lund - Red
+  FOB Khawaja-lund:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Kawan - Red
+  FOB Kawan:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Golestan - Red
+  FOB Golestan:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Baluchi - Red
+  FOB Baluchi:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+  
+  # FOB Owmish-e Pain - Red
+  FOB Owmish-e Pain:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
+  
+  # FOB Puni - Red
+  FOB Puni:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+  
+  # FOB Farah Rud - Red
+  FOB Farah Rud:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-F
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum
+  
+  # FOB Buchiragh - Red
+  FOB Buchiragh:
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-8MTV2 Hip
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Ka-50 Hokum III
+    - primary: BAI
+      secondary: air-to-ground
+      aircraft:
+        - Mi-24P Hind-E
