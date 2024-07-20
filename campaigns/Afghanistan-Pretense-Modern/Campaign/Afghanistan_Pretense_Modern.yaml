@@ -411,8 +411,8 @@ squadrons:
       aircraft:
         - OH-58D(R) Kiowa Warrior
   
-  # FOB Zarani - Blue
-  FOB Zarani:
+  # FOB Zaranj - Blue
+  FOB Zaranj:
     - primary: BAI
       secondary: air-to-ground
       aircraft:
