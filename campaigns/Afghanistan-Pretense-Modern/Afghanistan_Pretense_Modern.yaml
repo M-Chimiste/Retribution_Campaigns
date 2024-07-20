@@ -2,7 +2,7 @@
 name: Sinai - Gaza Conflict (v0.1)
 theater: Afghanistan
 authors: Chimiste
-recommended_player_faction: NATO Desert Storm
+recommended_player_faction: WRL - Task Force Blue
 recommended_enemy_faction: Russia 2010
 recommended_start_date: 2010-01-30
 description: "<p>A fictional scenario where NATO and Russian Forces circa 2010 fight in Southern Afghanistan.</p>"
@@ -33,6 +33,10 @@ squadrons:
       secondary: any
       aircraft:
         - F-16CM Fighting Falcon (Block 50)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - JF-17 Thunder
     - primary: Strike
       secondary: any
       aircraft:
@@ -69,7 +73,7 @@ squadrons:
       secondary: air-to-ground
       aircraft:
         - AV-8B Harrier II Night Attack
-        
+
   # Camp Bastion Helipad - Blue
   13:
     - primary: BAI
@@ -104,6 +108,10 @@ squadrons:
       secondary: any
       aircraft:
         - F-16CM Fighting Falcon (Block 50)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - JF-17 Thunder
     - primary: Strike
       secondary: any
       aircraft:
@@ -170,6 +178,10 @@ squadrons:
       secondary: any
       aircraft:
         - F-15E Strike Eagle (Suite 4+)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - JF-17 Thunder
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
@@ -205,6 +217,10 @@ squadrons:
       secondary: any
       aircraft:
         - F-15E Strike Eagle (Suite 4+)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - JF-17 Thunder
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
@@ -256,6 +272,10 @@ squadrons:
       secondary: any
       aircraft:
         - F-15E Strike Eagle (Suite 4+)
+    - primary: SEAD
+      secondary: any
+      aircraft:
+        - JF-17 Thunder
     - primary: BARCAP
       secondary: air-to-air
       aircraft:
